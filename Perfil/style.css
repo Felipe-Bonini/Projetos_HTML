@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+.card{
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    background-color: grey;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border: 5px solid darkgray;
+    border-radius: 10px;
+}
+button{
+    background-color: black;
+    color: grey;
+    text-decoration: none;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+button:hover{
+    transition: 0.3s;
+    background-color: gray;
+    color: black;
+}
+a{
+    background-color: darkgrey;
+    color: grey;
+    text-decoration: none;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+a:hover{
+    transition: 0.3s;
+    background-color: gray;
+    color: black;
+}
